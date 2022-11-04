@@ -1,17 +1,10 @@
 import ReactDom from 'react-dom'
+import App from './App'
 
 function Subtitle() {
     
     return <h2>React learning</h2>
     
-}
-
-
-function App() {
-
-     return <h1><Subtitle /></h1>
-     
-     
 }
 
 const rootNode = document.getElementById('root');
