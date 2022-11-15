@@ -26,8 +26,8 @@ if (props.post.length === 0){
     return(
             <>
             <header>
-                <h1>Seu Feed</h1>
-                <h2>Acompanhe o que seus amigos estão pensando em tempo real</h2>
+                <h1>{props.title}</h1>
+                <h2>{props.subtitle}</h2>
                     </header>  
                     <section className='feed'>
                     {props.post.map((posts) => (
